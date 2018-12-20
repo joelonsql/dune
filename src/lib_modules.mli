@@ -26,7 +26,6 @@ val make
   :  Dune_file.Library.t
   -> dir:Path.t
   -> Module.Name_map.t
-  -> virtual_modules:Module.Name_map.t
   -> main_module_name:Module.Name.t option
   -> wrapped:Wrapped.t
   -> t
